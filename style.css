@@ -1,9 +1,13 @@
 body {
   margin: 0;
   font-size: large;
-  background-color: aliceblue;
+  background-color: gray;
 }
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: aqua;
   margin: 0%;
@@ -28,7 +32,6 @@ button:hover {
   background-color: blueviolet;
 }
 section {
-  margin-bottom: 20px;
   height: 100vh;
   border: 1px solid grey;
   border-radius: 4%;
@@ -39,6 +42,7 @@ img {
 }
 h1 {
   color: blueviolet;
+  text-align: center;
 }
 input {
   border: 1px solid lightgrey;
@@ -70,4 +74,53 @@ footer {
   bottom: 10px;
   background-color: aqua;
   padding: 15px;
+}
+.subheader {
+  display: flex;
+}
+.maincontainer {
+  display: flex;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+#about p {
+  margin-bottom: 0;
+}
+#skills {
+  background-color: darkolivegreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projects {
+  background-color: darksalmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact h1 {
+  margin-bottom: 0;
+}
+#contact p {
+  margin-top: 0;
+}
+#ta {
+  background-color: aquamarine;
+}
+img {
+  display: flex;
 }
