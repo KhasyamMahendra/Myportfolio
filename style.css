@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-size: large;
+  background-color: aliceblue;
+}
+header {
+  height: 100vh;
+  background-color: aqua;
+  margin: 0%;
+  font-family: monospace;
+}
+header h1 {
+  margin: 0;
+  color: blueviolet;
+  margin-bottom: 10px;
+}
+button {
+  border-radius: 95px;
+  border: grey;
+  font-size: small;
+  font-family: monospace;
+  size: 500px;
+  margin: 0;
+  padding: 10px;
+}
+button:hover {
+  color: white;
+  background-color: blueviolet;
+}
+section {
+  margin-bottom: 20px;
+  height: 100vh;
+  border: 1px solid grey;
+  border-radius: 4%;
+}
+img {
+  height: 250px;
+  width: 375px;
+}
+h1 {
+  color: blueviolet;
+}
+input {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.submit {
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: small;
+  font-family: monospace;
+  size: 500px;
+  padding: 10px;
+  mouse: pointer;
+}
+.submit:hover {
+  color: white;
+  background-color: green;
+}
+footer {
+  color: white;
+  height: 130px;
+  width: 1250px;
+  background-color: black;
+  border: 1px solid black;
+}
+#top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: aqua;
+  padding: 15px;
+}
